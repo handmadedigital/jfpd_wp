@@ -1,0 +1,216 @@
+
+/**
+*  Sections Style Sheet
+*/
+
+.section_wrapper {
+  padding: 80px 40px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+}
+
+
+.single-image.solid-border {
+  margin-top: 10px;
+  padding: 6px;
+
+  border: solid 1px #e6e6e6;
+}
+
+.single-image img{
+  width: 100%;
+  margin: 0;
+}
+
+.container.cta-banner-wrapper {
+    background: #f2f2f2;
+    padding: 40px;
+}
+
+.container.cta-banner-wrapper .tagline_text {
+    margin: 12px 0 0 0;
+}
+
+.btn.btn-outline {
+  color: #FF675B;
+
+  border-radius: 50px;
+  border: solid;
+  border-width: 2px;
+  border-color: #FF675B;
+
+  background-color: transparent;
+
+  padding: 14px 40px;
+}
+
+/**************************************  Ways to Call Icons Columns  **************************************/
+.icon-columns-wrapper {
+    text-align: center;
+    color: #fff;
+}
+
+.icon-columns-wrapper .columns-title {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.icon-columns-wrapper .icons-text{
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.icon-columns-wrapper .icons-text a{
+    color: #fff;
+}
+
+.icon-circle-outline {
+  border: solid 1px #fff;
+  border-radius: 50%;
+
+  width: 110px;
+  height: 110px;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icon-circle-outline .fa{
+  font-size: 48px;
+  line-height: 110px;
+}
+
+/**************************************  Price Tables Wrapper **************************************/
+
+.price-table-wrapper {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.price-table-wrapper .price-table-title {
+  color: #4e525f;
+  font-size: 3em;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+}
+
+.price-table-wrapper .price-table-tagline {
+  margin-bottom: 60px;
+  color: #b4bdc6;
+  font-size: 1.8em;
+  letter-spacing: 0.04em;
+  margin-bottom: 80px;
+}
+
+.price-table-wrapper  .price-table-column {
+  padding: 40px 40px 60px 40px;;
+  background-color: #fff;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.price-table-wrapper  .column {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.price-table-wrapper  .column:nth-of-type(2):before {
+    content: 'Most Popular';
+
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: -30px;
+
+    background-color: #3bbdee;
+
+    height: 65px;
+    width: 65px;
+
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top: 22px;
+
+    font-size: 0.5em;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.13em;
+
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 999;
+}
+
+.price-table-wrapper  .column:hover {
+  transform: scale(1.08);
+}
+
+.price-table-wrapper  .column:hover:nth-of-type(2):before {
+  transform: rotate(360deg);
+}
+
+.price-table-wrapper  .price-table-column .column-title {
+  font-size: 1.6em;
+  padding: 0 0 40px 0px;
+  border-bottom: 2px solid #ebedec;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+}
+
+.price-table-wrapper  .price-table-column .column-price {
+  font-size: 3em;
+  padding: 30px 0px;
+  border-bottom: 2px solid #ebedec;
+  line-height: 0.7;
+}
+
+.price-table-wrapper  .price-table-column .column-price span:first-of-type {
+  font-size: 0.35em;
+  vertical-align: top;
+  letter-spacing: 0.15em;
+}
+
+.price-table-wrapper  .price-table-column .column-price span:last-of-type {
+  vertical-align: bottom;
+  font-size: 0.30em;
+  letter-spacing: 0.04em;
+  padding-left: 0.2em;
+}
+
+.price-table-wrapper  .price-table-column .column-list-items {
+  list-style: none;
+  font-size: 0.9em;
+  border-bottom: 2px solid #ebedec;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+
+.price-table-wrapper  .price-table-column .column-list-items li{
+  padding: 8px 0px;
+}
+
+.price-table-wrapper  .price-table-column .column-list-items li .fa{
+  margin-right: 10px;
+  color: #fe6c60;
+}
+
+.price-table-wrapper .price-table-column .btn-outline {
+  border-color: #3bbdee;
+  color: #3bbdee;
+  font-weight: 300;
+}
+
+.price-table-wrapper .price-table-column .btn-outline:hover{
+  transition: all 0.3s ease;
+  background-color: #3bbdee;
+  color: #fff;
+  font-weight: 300;
+}
+
+.price-table-wrapper .price-table-column .btn-outline:hover a{
+  text-decoration: none;
+}
